@@ -1,0 +1,6 @@
+{
+    "name": "gulp-skeleton",
+    "dependencies": {
+        "bootstrap": "~4.0.0-beta"
+    }
+}

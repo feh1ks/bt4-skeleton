@@ -1,0 +1,29 @@
+// Nav
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+	.container
+
+		// Logo
+		a.navbar-brand(href='#') Logo
+		button.navbar-toggler(
+			type='button'
+			data-toggle='collapse'
+			data-target='#menuCollapse'
+			aria-controls='menuCollapse'
+			aria-expanded='false'
+			aria-label='Toggle navigation')
+			span.navbar-toggler-icon
+
+		// Menu Collapse
+		.collapse.navbar-collapse#menuCollapse
+
+			// Menu List
+			ul.navbar-nav.ml-auto
+
+				// Menu Items
+				li.nav-item.active: a.nav-link(href='#') Home
+				li.nav-item: a.nav-link(href='#') Services
+				li.nav-item: a.nav-link(href='#') Team
+				li.nav-item: a.nav-link(href='#') Skills
+				li.nav-item: a.nav-link(href='#') Portfolio
+				li.nav-item: a.nav-link(href='#') About
+				li.nav-item: a.nav-link(href='#') Contact
